@@ -1,0 +1,24 @@
+# Environment & Credentials
+.env
+.venv/
+venv/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Generated Evaluation Reports (keep folder via .gitkeep)
+reports/*.csv
+reports/*.json
+!reports/.gitkeep
+
+# OS & Editor Artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+Brief QA.pdf
+
